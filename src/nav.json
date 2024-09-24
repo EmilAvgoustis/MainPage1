@@ -1,0 +1,24 @@
+{
+    "theme": "Golovin Fond",
+
+    "links": {
+               "Home": "https://golovinfond.ru/",
+               "Texts": "https://golovinfond.ru/texts/",
+               "Songs": "https://golovinfond.ru/tags/songs",
+               "About": "https://golovinfond.ru/tags/about"
+             },
+    
+    "videos": {
+                "Golovin Alchemy": "https://www.youtube.com/watch?v=cudz0LsWKmk&t=898s",
+                "Black magic": "https://www.youtube.com/watch?v=KmE04tZnwyU&t=1s",
+                "Songs" :"https://www.youtube.com/watch?v=8Vu5ve2y9NM",
+                "Fear of death": "https://www.youtube.com/watch?v=4x7aBRvF8Q0&t=14s",
+                "Golem": "https://www.youtube.com/watch?v=Jck3a-MpRy4",
+                "Matriarchy": "https://www.youtube.com/watch?v=95CBHaflJM0",
+                "Black state" : "https://www.youtube.com/watch?v=j1meAw-vkg8&t=4508s",
+                "Diana": "https://paideuma.tv/video/golovin-v-nu-diana#/?playlistId=0&videoId=0",
+                "Dionysus-1": "https://paideuma.tv/video/golovin-v-nu-dionis-1#/?playlistId=0&videoId=0",
+                "Dionysus-2": "https://paideuma.tv/video/golovin-v-nu-dionis-2#/?playlistId=0&videoId=0"
+              }
+}
+

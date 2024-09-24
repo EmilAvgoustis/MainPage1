@@ -1,0 +1,127 @@
+.infoWithLinksOuterDiv
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.authorInfoContainer
+{
+  display: inline-block;
+  height: 40px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.authorInfo
+{
+  position: absolute;
+  left: 0%;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-family: "Kaligrafica";
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+
+  animation: goUp 750ms 1 both;
+}
+
+.authorImage
+{
+  max-width: 40px;
+  border-radius: 50%;
+}
+
+.buttonContainer
+{
+    margin-top: 30px;
+
+    width: 220px;
+    aspect-ratio: 3.5/1;
+
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+.buttonContainer > a
+{
+    position: absolute;
+    left: 0%;
+    
+    width: 90%;
+    aspect-ratio: 4/1;
+
+    background-image: url(../../../../public/Images/fire.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 20% center;
+     
+    box-shadow: 7.5px 7.5px 10px black;
+  
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Kaligrafica";
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+   
+    transition: background-size 500ms, filter 500ms;
+}
+
+.buttonContainer > a,
+.buttonContainer > a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+
+.buttonContainer > a > span
+{
+    margin-top: 5px;
+}
+
+.buttonContainer > a:hover
+{
+  background-size: 125%;
+  filter: contrast(200%);
+}
+
+@keyframes goUp
+{
+  0%
+  {
+    top: 100%;
+  }
+
+  100%
+  {
+    top: 0%;
+  }  
+}
+
+@keyframes _goUp
+{
+  0%
+  {
+    top: 100%;
+  }
+
+  100%
+  {
+    top: 0%;
+  }  
+}

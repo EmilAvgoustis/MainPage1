@@ -1,0 +1,223 @@
+button
+{
+    border: 0px;
+    background-color: transparent;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+.navigationDiv
+{
+    width: 100%;
+    height: 100px;
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.themePhotoLink
+{
+    font-family: "Kaligrafica";
+    font-size: 60px;
+ 
+    margin: 10px 0px 0px 30px;
+}
+
+@media screen and (max-width: 480px)
+{
+    .themePhotoLink
+    {
+        font-size: 50px;
+        margin: 10px 0px 0px 15px;
+    }
+}
+
+.themePhotoLink,
+.themePhotoLink:visited
+{
+    color: gold;
+    text-decoration: none;
+}
+
+.menuItemsContainer
+{
+    font-family: "Kaligrafica";   
+    font-size: 30px;
+    
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    margin-right: 75px;
+}
+
+.menuItemLink
+{
+
+}
+
+.menuItemLink,
+.menuItemLink:visited
+{
+    color: gold;
+    text-decoration: none;    
+}
+
+.menuItemVideos
+{
+    font-family: inherit;   
+    font-size: inherit;
+
+    color: gold;
+    order: 0;
+
+    position: relative;
+
+    padding: 0px;
+}
+
+.horizontalVideosDiv,
+.verticalVideosDiv
+{
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 5px;
+}
+
+.horizontalVideosDiv
+{
+    width: 200px;
+    background-color: black;
+}
+
+.verticalVideosDiv
+{
+    width: 225px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.horizontalVideosDiv,
+.verticalVideosDiv
+{
+    max-height: 250px;
+    overflow-y: auto;
+
+    scrollbar-color: gold rgba(0, 0, 0, 0.8);
+    scrollbar-width: thin; 
+}
+
+.videoLink
+{
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 100%;
+
+    text-align: left;
+    font-family: inherit;   
+    font-size: inherit;
+
+}
+
+.videoLink,
+.videoLink:visited
+{
+    color: gold;
+    text-decoration: none;   
+}
+
+.videoLink:hover
+{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menuButton
+{
+    margin-right: 50px;
+
+    width: 40px;
+    aspect-ratio: 1/1;
+
+    font-family: "Kaligrafica";   
+    font-size: 30px;
+    color: gold;
+
+/*
+    background-image: url(../../../public/Images/menuGold.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+*/
+}
+
+.smallScreenMenuDiv
+{
+    box-sizing: border-box;
+    width: 250px;
+    padding: 75px 0px 0px 20px;
+
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+
+    box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.5);
+
+    animation: smallScreenMenuDivAnimation 500ms 1 both;
+
+    transition: margin-right 500ms;
+
+    font-family: "Kaligrafica";   
+    font-size: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    
+}
+
+@keyframes smallScreenMenuDivAnimation 
+{
+    0%
+    {
+        right: -250px;   
+    }  
+    
+    100%
+    {
+        right: 0px;   
+    } 
+}
+
+.xGoldDiv
+{
+    width: 35px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+
+    top: 20px;
+    left: 20px;
+
+    background-image: url(../../../public/Images/xIconGold.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+

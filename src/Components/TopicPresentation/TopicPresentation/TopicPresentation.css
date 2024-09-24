@@ -1,0 +1,181 @@
+.container
+{
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  
+  margin: 50px 0px 0px 50%;
+  transform: translate(-50%, 0%);
+
+}
+
+.backgroundImagesContainer,
+.backgroundImageDiv
+{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.backgroundImageDiv
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes opacityRiseGradual
+{
+  0%
+  {
+    opacity: 0;
+  }
+
+  100%
+  {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityFallGradual
+{
+  0%
+  {
+    opacity: 1;
+  }
+
+  100%
+  {
+    opacity: 0;
+  }
+}
+
+@keyframes opacityFallImmediate
+{
+  0%
+  {
+    opacity: 0;
+  }
+
+  100%
+  {
+    opacity: 0;
+  }
+}
+
+.hourglassContainer
+{
+  width: 50px;
+
+  position: absolute;
+  right: 35px;
+}
+
+.infoLinksContainer
+{
+  position: absolute;
+  z-index: 2;
+}
+
+.selectTopicContainer
+{
+  display: inline-block;
+
+  position: absolute;
+  z-index: 2;
+  top: calc(14.6% + 53px);
+  right: 90px;
+}
+
+.changingLinkDotsContainer
+{
+    position: absolute;
+    
+    bottom: 25px;
+    left: 50px;
+ 
+    height: 30px;
+    width: 140px;
+
+    background-color: transparent;
+
+}
+
+@media screen and (max-width: 480px)
+{
+  .container
+  {
+    width: 320px;
+    height: 630px;
+  }
+
+  .infoLinksContainer
+  {
+    width: 250px;
+
+    top: 70px;
+    left: 50px;
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 690px)
+{
+  .container
+  {
+    width: 420px;
+    height: 525px;
+  }
+
+  .infoLinksContainer
+  {
+    width: 320px;
+
+    top: 90px;
+    left: 50px;
+  }
+
+}
+
+@media screen and (min-width: 690px) and (max-width: 1000px)
+{
+  .container
+  {
+    width: 600px;
+    height: 625px;
+  }
+
+  .infoLinksContainer
+  {
+    width: 375px;
+
+    top: 120px;
+    left: 50px;
+  }
+
+}
+
+@media screen and (min-width: 1000px) 
+{
+  .container
+  {
+    width: calc(100vw - 170px);
+    aspect-ratio: 11/10;
+  }
+
+  .infoLinksContainer
+  {
+    width: 290px;
+
+    top: 170px;
+    left: 90px;
+  }
+
+  .slidingLinkDotsContainer
+  {
+    z-index: 0;
+  }
+
+}

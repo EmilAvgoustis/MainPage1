@@ -1,0 +1,43 @@
+.selectTopicOuterDiv
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.specificTopic
+{
+    display: inline-block;
+    opacity: 0.4;
+}
+
+.specificTopicOpacity
+{
+    opacity: 1;
+}
+
+._specificTopicOpacity
+{
+    opacity: 1;
+}
+
+
+.specificTopic > p
+{
+    margin: 0px;
+
+    font-family: "Kaligrafica";
+    color: white; /**/
+}
+
+.stArrowDiv
+{
+    width: 100%;
+    aspect-ratio: 906/100;
+
+    background-image: url(../../../../public/Images/medievalArrow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transform: rotate(180deg);
+}

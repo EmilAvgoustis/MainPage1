@@ -1,0 +1,185 @@
+.hourglassOuterDiv
+{
+    width: inherit;
+    aspect-ratio: 3/5;
+    
+    position: relative;
+}
+
+.glass
+{
+    position: absolute;
+    height: 50%;
+    width: 62.5%;
+
+    left: 50%;
+
+    border-radius:  0% 0% 50% 50% / 0% 0% 40% 40%;
+
+    overflow: hidden;
+}
+
+.top
+{
+    top: 0%;
+    transform: translate(-50%, 0%);
+}
+
+.bottom
+{
+    bottom: 0%;
+    transform: translate(-50%, 0%) rotate(180deg);
+    
+}
+
+.glassBase
+{
+    position: absolute;
+    z-index: 1;
+    height: 7.5%;
+    width: 75%;
+
+    left: 50%;
+    
+    background-color: black;
+
+    border-radius:  0% 0% 10% 10% / 0% 0% 100% 100%;
+}
+
+.hourglassBase
+{
+    position: absolute;
+    z-index: 2;
+    height: 5%;
+    width: 100%;
+
+    left: 50%;
+    
+    border-radius:  0% 0% 5% 5% / 0% 0% 100% 100%;
+}
+
+.column
+{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+
+    background-color: black;
+
+}
+
+.left
+{
+    left: 7.5%;
+}
+
+.right
+{
+    right: 7.5%;
+}
+
+.sandLine
+{
+    height: 100%;
+    width: 5%;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.risingSand
+{
+    width: 100%;
+    height: 100%;
+
+    clip-path: ellipse(60% 50%);
+
+    position: absolute;
+}
+
+.fallingSand
+{
+    width: 100%;
+    height: 75%;
+
+    position: absolute;
+}
+
+@keyframes fallingSandLine
+{
+    0%
+    {
+        top: 100%;
+    }
+
+    100%
+    {
+        top: 0%;
+    }
+}
+
+@keyframes sandRise
+{
+    0%
+    {
+        bottom: 85%;
+    }
+
+    100%
+    {
+        bottom: 20%;
+    }
+}
+
+@keyframes sandFall
+{
+    0%
+    {
+        top: 25%;
+    }
+
+    100%
+    {
+        top: 100%;
+    }
+}
+
+@keyframes _fallingSandLine
+{
+    0%
+    {
+        top: 100%;
+    }
+
+    100%
+    {
+        top: 0%;
+    }
+}
+
+@keyframes _sandRise
+{
+    0%
+    {
+        bottom: 85%;
+    }
+
+    100%
+    {
+        bottom: 20%;
+    }
+}
+
+@keyframes _sandFall
+{
+    0%
+    {
+        top: 25%;
+    }
+
+    100%
+    {
+        top: 100%;
+    }
+}

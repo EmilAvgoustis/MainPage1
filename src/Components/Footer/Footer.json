@@ -1,0 +1,132 @@
+{
+    "footerLinksDivWords":
+    [
+        {
+            "title": "Home",
+            "href": "https://golovinfond.ru/"
+        },
+        {
+            "title": "Texts",
+            "href": "https://golovinfond.ru/texts/"
+        },
+        {
+            "title": "Songs",
+            "href": "https://golovinfond.ru/tags/songs"
+        },
+        {
+            "title": "About",
+            "href": "https://golovinfond.ru/tags/about"
+        },
+        {
+            "title": "Youtube Channel",
+            "href": "https://www.youtube.com/@user-hl5iq8oe9y"
+        }
+    ],
+
+    "footerLinksDivTags":
+    [
+        {
+            "title": "Templars",
+            "href": "https://golovinfond.ru/content/bosean-tayna-tamplierov-preliminariypostskriptum"
+        },
+
+        {
+            "title": "Ayvengo",
+            "href": "https://golovinfond.ru/content/ayvengo"
+        },
+
+        {
+            "title": "Akteon",
+            "href": "https://golovinfond.ru/content/akteon"
+        },
+
+        {
+            "title": "Emanations",
+            "href": "https://golovinfond.ru/content/alhimiya-i-ee-emanacii"
+        },
+
+        {
+            "title": "Asocials",
+            "href": "https://golovinfond.ru/content/asocialy"
+        },
+
+        {
+            "title": "Great Pan",
+            "href": "https://golovinfond.ru/content/velikiy-pan"
+        },
+
+        {
+            "title": "Dehumanization",
+            "href": "https://golovinfond.ru/content/degumanizaciya"
+        },
+
+        {
+            "title": "Diana",
+            "href": "https://golovinfond.ru/content/diana"
+        },
+
+        {
+            "title": "Dionysius-1",
+            "href": "https://golovinfond.ru/content/dionis-1-lekciya-v-nu"
+        },
+
+        {
+            "title": "Dionysius-2",
+            "href": "https://golovinfond.ru/content/dionis-2-lekciya-v-nu"
+        },
+
+        {
+            "title": "Dolls",
+            "href": "https://golovinfond.ru/content/zagovor-kukol"
+        },
+
+        {
+            "title": "Stone",
+            "href": "https://golovinfond.ru/content/kamen"
+        },
+
+        {
+            "title": "Masses",
+            "href": "https://golovinfond.ru/content/mif-o-tolpe"
+        }
+    ],
+
+    "footerLinksDivImages":
+    [
+        {
+            "title": "Witches and plants",
+            "photo": "./images/witch.jpg",
+            "date": "10 August 1970",
+            "href": "https://golovinfond.ru/content/veselaya-nauka-protokoly-soveshchaniy/vedmy-i-rasteniya"
+        },
+
+        {
+            "title": "Magical geography",
+            "photo": "./images/magicalGeography.jpg",
+            "date": "12 September 1971",
+            "href": "https://golovinfond.ru/content/o-magicheskoy-geografii" 
+        },
+
+        {
+            "title": "Happy science",
+            "photo": "./images/happyScience.jpg",
+            "date": "23 May 1968",
+            "href": "https://golovinfond.ru/content/veselaya-nauka-protokoly-soveshchaniy/veselaya-nauka-protokoly-soveshchaniy-0" 
+        },
+
+        {
+            "title": "Bourgeois anti-myth people",
+            "photo": "./images/bourgeois.jpg",
+            "date": "27 June 1969",
+            "href": "https://golovinfond.ru/content/burzhua-lyudi-antimifa"
+        },
+
+        {
+            "title": "The brilliant Agrippa von Nettesheim",
+            "photo": "./images/agrippa.jpg",
+            "date": "17 November 1968",
+            "href": "https://golovinfond.ru/content/blistatelnyy-agrippa-nettesgeym"
+        }
+    ]
+
+}

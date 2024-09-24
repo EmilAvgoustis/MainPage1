@@ -1,0 +1,161 @@
+@media screen and (max-width: 480px)
+{
+  .rsOuterDiv
+  {
+    width: 320px;
+
+    grid-template-areas: 
+    "at at"
+    "awt awt"
+    "c c"
+    "v v";
+  }
+
+  .rsCategoriesDiv
+  {
+      height: 300px;
+  }
+
+  .rsArticleWithTextInnerDiv
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 690px)
+{
+  .rsOuterDiv
+  {
+    width: 420px;
+
+    grid-template-areas: 
+    "at at"
+    "awt awt"
+    "c c"
+    "v v";
+  }
+
+  .rsCategoriesDiv
+  {
+      height: 300px;
+  }
+
+  .rsArticleWithTextInnerDiv
+  {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 690px) and (max-width: 1000px)
+{
+  .rsOuterDiv
+  {
+    width: 600px;
+
+    grid-template-areas: 
+    "at at"
+    "awt awt"
+    "c c"
+    "v v";
+  }
+
+  .rsCategoriesDiv
+  {
+      height: 300px;
+  }
+
+  .rsArticleWithTextInnerDiv:nth-of-type(1)
+  {
+    width: 100%;
+  }
+
+  .rsArticleWithTextInnerDiv:nth-of-type(2),
+  .rsArticleWithTextInnerDiv:nth-of-type(3)
+  {
+    width: calc(50% - 10px);
+  }
+
+}
+
+@media screen and (min-width: 1000px) 
+{
+  .rsOuterDiv
+  {
+    width: calc(100vw - 170px);
+
+    grid-template-areas: 
+    "at c"
+    "awt c"
+    "v v";
+  
+  }
+
+  .rsCategoriesDiv
+  {
+      height: 100%;
+  }
+
+  .rsArticleWithTextInnerDiv
+  {
+    width: 30%;
+  }
+
+}
+
+.rsOuterDiv
+{
+    background-color: red;
+
+    margin: 100px 0px 0px 50%;
+    transform: translate(-50%, 0%); 
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.rsArticleWithTextDiv
+{
+    background-color: green;
+    grid-area: at;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+
+.rsArticleWithTextInnerDiv
+{
+    background-color: aquamarine;
+}
+
+.rsArticleWithoutTextDiv
+{
+    height: 400px;
+    background-color: gold;
+    grid-area: awt;
+}
+
+.rsCategoriesDiv
+{
+    background-color: blue;
+    grid-area: c;
+}
+
+.rsCategoriesInnerDiv
+{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.rsVideosDiv
+{
+    height: 600px;
+    background-color: black;
+    grid-area: v;
+}
+

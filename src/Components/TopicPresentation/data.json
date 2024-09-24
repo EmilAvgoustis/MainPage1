@@ -1,0 +1,43 @@
+{
+    "duration": "5000",
+    "data": 
+           {
+               "0":
+                   {
+                       "authorPhoto": "./Images/Golovin.PNG",
+                       "authorName": "Golovin",
+                       "authorLink": "https://golovinfond.ru/",
+                       "text": "Baucent. Mystery of the templars.",
+                       "href": "https://golovinfond.ru/content/bosean-tayna-tamplierov-preliminariypostskriptum",
+                       "backgroundImage": "./Images/templars.jpg"
+                   },
+               "1":
+                   {
+                       "authorPhoto": "./Images/zhigalkinSquared.jpg",
+                       "authorName": "Zhigalkin",
+                       "authorLink": "https://paideuma.tv/course/dialogi-o-radikalnom-subekte-szhigalkin-adugin",
+                       "text": "Cergei Zhigalkin. Golovin and mathematics",
+                       "href": "https://golovinfond.ru/tags/about?page=1",
+                       "backgroundImage": "./Images/alchemySealWithAdept.PNG"
+                   },
+               "2":
+                   {
+                       "authorPhoto": "./Images/Golovin.PNG",
+                       "authorName":"Golovin",
+                       "authorLink":"https://golovinfond.ru/",
+                       "text": "Dawn and Sunset of Blood",
+                       "href": "https://golovinfond.ru/content/veselaya-nauka-protokoly-soveshchaniy/zarya-i-zakat-krovi",
+                       "backgroundImage": "./Images/bloodRitual.jpg"
+                   },
+               "3":
+                   {
+                       "authorPhoto": "./Images/Golovin.PNG",
+                       "authorName":"Golovin",
+                       "authorLink":"https://golovinfond.ru/",
+                       "text": "Dionysian Mysteries",
+                       "href": "https://golovinfond.ru/content/veselaya-nauka-protokoly-soveshchaniy/dionisiyskie-raznoobraziya",
+                       "backgroundImage": "./Images/Dionysus.PNG"
+                   }            
+           
+           }
+}

@@ -1,0 +1,84 @@
+.testDivContainer
+{
+    width: inherit;
+    
+    display: flex;
+    column-gap: 10px;
+    row-gap: 0px;
+    flex-wrap: wrap;
+}
+
+.staticWordDiv
+{
+    position: relative;
+
+    color: transparent;
+}
+
+.movingWordDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+}
+
+@keyframes revealOverflow
+{
+    0%
+    {
+        overflow: hidden;
+    }
+    99.9%
+    {
+        overflow: hidden;
+    }
+    100%
+    {
+        overflow: visible;
+    }
+
+}
+
+@keyframes _revealOverflow
+{
+    0%
+    {
+        overflow: hidden;
+    }
+    99.9%
+    {
+        overflow: hidden;
+    }
+    100%
+    {
+        overflow: visible;
+    }
+
+}
+@keyframes rise
+{
+    0%
+    {
+        top: 100%;
+    }
+
+    100%
+    {
+        top: 0%;
+    }
+}
+
+@keyframes _rise
+{
+    0%
+    {
+        top: 100%;
+    }
+
+    100%
+    {
+        top: 0%;
+    }
+}
